@@ -1,0 +1,18 @@
+{
+    "js": [
+        "js/cardView.dataTables.js",
+        "js/cardView.dataTables.min.js",
+        "js/cardView.dataTables.min.mjs",
+        "js/cardView.dataTables.mjs"
+    ],
+    "css": [
+        "css/cardView.dataTables.css",
+        "css/cardView.dataTables.min.css"
+    ],
+    "types": [
+        "types/cardView.dataTables.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/CardView",
+    "last-tag": "null",
+    "last-sync": ""
+}

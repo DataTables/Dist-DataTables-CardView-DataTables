@@ -1,0 +1,34 @@
+{
+    "name": "datatables.net-cardview-dt",
+    "description": "CardView for DataTables with styling for [DataTables](https://datatables.net/)",
+    "main": "js/cardView.dataTables.js",
+    "module": "js/cardView.dataTables.mjs",
+    "style": "css/cardView.dataTables.css",
+    "types": "./types/cardView.dataTables.d.ts",
+    "version": "1.0.0-beta.1",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "js/**/*.mjs",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "Cards",
+        "Responsive",
+        "Datatables",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-cardview": "1.0.0-beta.1",
+        "datatables.net-dt": "3.0.0-0"
+    },
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "SEE LICENSE IN License.txt"
+}
