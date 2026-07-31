@@ -1,4 +1,4 @@
-/*! CardView default styling 1.0.0 for DataTables
+/*! CardView default styling 1.0.1 for DataTables
  * Copyright (c) SpryMedia Ltd - https://datatables.net/license/plus
  */
 import DataTable from"datatables.net-dt";import CardView from"datatables.net-cardview";export default DataTable;
