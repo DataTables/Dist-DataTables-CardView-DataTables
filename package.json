@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-cardview-dt",
     "description": "CardView for DataTables with styling for [DataTables](https://datatables.net/)",
-    "main": "js/cardView.dataTables.js",
-    "module": "js/cardView.dataTables.mjs",
-    "style": "css/cardView.dataTables.css",
+    "main": "./js/cardView.dataTables.js",
+    "module": "./js/cardView.dataTables.mjs",
+    "style": "./css/cardView.dataTables.css",
     "types": "./types/cardView.dataTables.d.ts",
     "version": "1.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Cards",
@@ -30,5 +29,24 @@
     },
     "homepage": "https://datatables.net",
     "bugs": "https://datatables.net/forums",
-    "license": "SEE LICENSE IN License.txt"
+    "license": "SEE LICENSE IN License.txt",
+    "exports": {
+        ".": {
+            "types": "./types/cardView.dataTables.d.ts",
+            "import": "./js/cardView.dataTables.mjs",
+            "default": "./js/cardView.dataTables.mjs",
+            "require": "./js/cardView.dataTables.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/cardView.dataTables.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
