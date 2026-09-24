@@ -33,9 +33,10 @@
     "exports": {
         ".": {
             "types": "./types/cardView.dataTables.d.ts",
+            "style": "./css/cardView.dataTables.css",
             "import": "./js/cardView.dataTables.mjs",
-            "default": "./js/cardView.dataTables.mjs",
-            "require": "./js/cardView.dataTables.js"
+            "require": "./js/cardView.dataTables.js",
+            "default": "./js/cardView.dataTables.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
